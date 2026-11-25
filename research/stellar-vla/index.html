@@ -6,13 +6,14 @@
   <title>Stellar VLA | PIRLab</title>
   <meta name="description" content="Stellar VLA: continual skill knowledge for vision-language-action robot manipulation.">
   <link rel="icon" type="image/jpg" href="../../imgs/UOC_icon.jpg">
-  <link rel="stylesheet" href="../../site.css">
+  <link rel="stylesheet" href="../../site.css?v=interior-content-20261108">
+  <script src="../../nav.js" defer></script>
 </head>
 <body class="page-body">
   <header class="site-header">
     <a class="brand" href="../../index.html" aria-label="PIRLab home">
       <span class="brand-mark">PIR</span>
-      <span class="brand-text">Physical Intelligence and Robotics Lab</span>
+      <span class="brand-text"><span class="brand-name"><b>P</b>hysical <b>I</b>ntelligence</span><span class="brand-name">and <b>R</b>obotics <b>L</b>ab</span></span>
     </a>
     <nav class="site-nav" aria-label="Primary navigation">
       <a href="../../index.html">Home</a>
@@ -30,8 +31,9 @@
         <summary>Groups</summary>
         <div class="nav-menu">
           <a href="../../groups/index.html">Overview</a>
+          <a href="../../groups/index.html#people">Our People</a>
           <a href="../../cambridge/index.html">Cambridge Robotics Group</a>
-          <a href="../../ireland/index.html">Cambridge-Ireland Centre</a>
+          <a href="../../ireland/index.html">Cambridge-Ireland Research Group</a>
           <a href="../../sjtu/index.html">SJTU Research Group</a>
         </div>
       </details>
@@ -81,8 +83,8 @@
           <h2>Lifelong robot policies need stable skill memory.</h2>
         </div>
         <div>
-          <p>Vision-language-action models can inherit broad manipulation knowledge from pretraining, but efficient continual learning remains difficult. When new tasks arrive sequentially, the robot must adapt without overwriting old behaviours or adding a separate module for every task.</p>
-          <p>Stellar VLA reframes this as knowledge modelling. Instead of treating each task as isolated, the policy learns a compact knowledge space that captures relationships between tasks and skills. That knowledge then guides expert routing for action prediction.</p>
+          <p>Robots need to learn new tasks without forgetting earlier skills.</p>
+          <p>Stellar VLA connects tasks and reusable skills in a compact knowledge space that guides action prediction.</p>
         </div>
       </div>
       <div class="selected-work-grid section-actions">
@@ -184,30 +186,6 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="section-header wide">
-        <p class="eyebrow">Results</p>
-        <h2>Real-world and simulation evaluations.</h2>
-      </div>
-      <div class="selected-work-grid">
-        <article class="selected-work-card">
-          <img src="../../imgs/research-projects/stellar-real-table.png" alt="Stellar VLA real-world success-rate comparison table" loading="lazy">
-          <div class="selected-work-copy">
-            <p class="paper-area">Real world</p>
-            <h3>Success-rate comparison</h3>
-            <p>The real-robot evaluation compares continual manipulation performance across baseline policies and Stellar variants.</p>
-          </div>
-        </article>
-        <article class="selected-work-card">
-          <img src="../../imgs/research-projects/stellar-sim-results.png" alt="Stellar VLA simulation success-rate results" loading="lazy">
-          <div class="selected-work-copy">
-            <p class="paper-area">Simulation</p>
-            <h3>LIBERO continual learning</h3>
-            <p>Simulation studies cover goal, long-horizon, and multi-task LIBERO settings with limited replay.</p>
-          </div>
-        </article>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">

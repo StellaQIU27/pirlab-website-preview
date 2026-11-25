@@ -6,13 +6,14 @@
   <title>SJTU Research Group | PIRLab</title>
   <meta name="description" content="PIRLab SJTU Research Group: robot vision, LiDAR odometry, 3D scene flow, robust estimation, and manipulation learning.">
   <link rel="icon" type="image/jpg" href="../imgs/UOC_icon.jpg">
-  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../site.css?v=overview-20261108">
+  <script src="../nav.js" defer></script>
 </head>
 <body class="page-body">
   <header class="site-header">
     <a class="brand" href="../index.html" aria-label="PIRLab home">
       <span class="brand-mark">PIR</span>
-      <span class="brand-text">Physical Intelligence and Robotics Lab</span>
+      <span class="brand-text"><span class="brand-name"><b>P</b>hysical <b>I</b>ntelligence</span><span class="brand-name">and <b>R</b>obotics <b>L</b>ab</span></span>
     </a>
     <nav class="site-nav" aria-label="Primary navigation">
       <a href="../index.html">Home</a>
@@ -30,8 +31,9 @@
         <summary class="nav-current" aria-current="page">Groups</summary>
         <div class="nav-menu">
           <a href="../groups/index.html">Overview</a>
+          <a href="../groups/index.html#people">Our People</a>
           <a href="../cambridge/index.html">Cambridge Robotics Group</a>
-          <a href="../ireland/index.html">Cambridge-Ireland Centre</a>
+          <a href="../ireland/index.html">Cambridge-Ireland Research Group</a>
           <a href="../sjtu/index.html">SJTU Research Group</a>
         </div>
       </details>
@@ -51,6 +53,7 @@
     </section>
 
     <section class="section">
+      <div class="group-detail-identity"><img src="../imgs/partners/ppt/sjtu.png" alt="Shanghai Jiao Tong University"></div>
       <a class="back-link" href="../groups/index.html">Back to PIRLab groups</a>
       <div class="page-summary">
         <div class="section-header">
@@ -58,20 +61,29 @@
           <h2>From rigorous 3D perception to robot action.</h2>
         </div>
         <div>
-          <p>The SJTU group reflects PIRLab's long-running research foundation in the Intelligent Robotics and Machine Vision community at Shanghai Jiao Tong University.</p>
-          <p>The group emphasizes strong student mentoring, open-source robot vision systems, and publication-quality research across computer vision, robotics, AI, and intelligent transportation.</p>
+          <p>The SJTU group works in robot vision, perception, and manipulation within the IRMV Lab.</p>
+
         </div>
+      </div>
+      <div class="affiliations" aria-labelledby="affiliations-title">
+        <h2 id="affiliations-title">Affiliated lab</h2>
+        <ul>
+          <li><a href="https://irmv.sjtu.edu.cn/">Intelligent Robotics and Machine Vision (IRMV) Lab <span aria-hidden="true">↗</span></a></li>
+        </ul>
       </div>
       <div class="focus-list">
         <div class="focus-item">
+          <svg class="topic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg>
           <h3>LiDAR Odometry</h3>
           <p>Efficient 3D deep odometry, point-cloud representation learning, and robust localization pipelines.</p>
         </div>
         <div class="focus-item">
+          <svg class="topic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="m8 11 8-4M8 13l8 4"/></svg>
           <h3>Scene Flow</h3>
           <p>Large-scale 3D motion estimation, auto-labelling, uncertainty-aware learning, and dynamic perception.</p>
         </div>
         <div class="focus-item">
+          <svg class="topic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 13h7V5l7 7-7 7v-6H5z"/></svg>
           <h3>Manipulation</h3>
           <p>Reinforcement learning, base controllers, real-to-sim-to-real transfer, and physically grounded policies.</p>
         </div>
@@ -79,62 +91,7 @@
     </section>
 
     <section class="section">
-      <div class="section-header wide">
-        <p class="eyebrow">Group Members</p>
-        <h2>Current SJTU members.</h2>
-      </div>
-      <div class="people-grid">
-        <article class="person-card">
-          <div class="person-top">
-            <img src="../imgs/Guangming2.jpg" alt="Guangming Wang" loading="lazy">
-            <div>
-              <p class="paper-area">Group Lead</p>
-              <h3>Guangming Wang</h3>
-            </div>
-          </div>
-          <p>Assistant Professor at the Cambridge-Ireland International Centre and Research Associate at the University of Cambridge; robot vision, LiDAR odometry, 3D scene flow, robust estimation, and manipulation learning.</p>
-        </article>
-        <article class="person-card">
-          <div class="person-top">
-            <img src="https://irmv.sjtu.edu.cn/images/teampic/SitingZhu.png" alt="Siting Zhu" loading="lazy">
-            <div>
-              <p class="paper-area">PhD Student</p>
-              <h3><a href="https://irmv.sjtu.edu.cn/team">Siting Zhu</a></h3>
-            </div>
-          </div>
-          <p>Research interest: semantic SLAM. Co-supervised with Prof. Hesheng Wang.</p>
-        </article>
-        <article class="person-card">
-          <div class="person-top">
-            <img src="../members/sjtu-wenhua-wu.png" alt="Wenhua Wu" loading="lazy">
-            <div>
-              <p class="paper-area">PhD Student</p>
-              <h3><a href="https://irmv.sjtu.edu.cn/team">Wenhua Wu</a></h3>
-            </div>
-          </div>
-          <p>Research interest: 3D reconstruction. Co-supervised with Prof. Zhe Liu.</p>
-        </article>
-        <article class="person-card">
-          <div class="person-top">
-            <img src="https://irmv.sjtu.edu.cn/images/teampic/YuZheng.jpg" alt="Yu Zheng" loading="lazy">
-            <div>
-              <p class="paper-area">PhD Student</p>
-              <h3><a href="https://irmv.sjtu.edu.cn/team">Yu Zheng</a></h3>
-            </div>
-          </div>
-          <p>Research interest: mobile manipulation. Co-supervised with Prof. Hesheng Wang.</p>
-        </article>
-        <article class="person-card">
-          <div class="person-top">
-            <img src="https://irmv.sjtu.edu.cn/images/teampic/Yuxuan%20Wu.jpg" alt="Yuxuan Wu" loading="lazy">
-            <div>
-              <p class="paper-area">PhD Student</p>
-              <h3><a href="https://irmv.sjtu.edu.cn/team">Yuxuan Wu</a></h3>
-            </div>
-          </div>
-          <p>Research interest: computer vision and deep learning for robot manipulation. Co-supervised with Prof. Hesheng Wang.</p>
-        </article>
-      </div>
+      <div class="team-directory-link"><div><p class="eyebrow">Our people</p><h2>Meet the PIRLab team</h2><p>Explore researchers and students from all three groups in one place.</p></div><a href="../groups/index.html#people">View all members</a></div>
 
       <div class="section-header wide">
         <p class="eyebrow">Advisory Board</p>

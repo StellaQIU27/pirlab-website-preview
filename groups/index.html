@@ -6,13 +6,14 @@
   <title>Groups | PIRLab</title>
   <meta name="description" content="Research groups connected through PIRLab across Cambridge, Ireland, and Shanghai Jiao Tong University.">
   <link rel="icon" type="image/jpg" href="../imgs/UOC_icon.jpg">
-  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../site.css?v=overview-20261108">
+  <script src="../nav.js" defer></script>
 </head>
 <body class="page-body">
   <header class="site-header">
     <a class="brand" href="../index.html" aria-label="PIRLab home">
       <span class="brand-mark">PIR</span>
-      <span class="brand-text">Physical Intelligence and Robotics Lab</span>
+      <span class="brand-text"><span class="brand-name"><b>P</b>hysical <b>I</b>ntelligence</span><span class="brand-name">and <b>R</b>obotics <b>L</b>ab</span></span>
     </a>
     <nav class="site-nav" aria-label="Primary navigation">
       <a href="../index.html">Home</a>
@@ -30,8 +31,9 @@
         <summary class="nav-current" aria-current="page">Groups</summary>
         <div class="nav-menu">
           <a href="../groups/index.html">Overview</a>
+          <a href="../groups/index.html#people">Our People</a>
           <a href="../cambridge/index.html">Cambridge Robotics Group</a>
-          <a href="../ireland/index.html">Cambridge-Ireland Centre</a>
+          <a href="../ireland/index.html">Cambridge-Ireland Research Group</a>
           <a href="../sjtu/index.html">SJTU Research Group</a>
         </div>
       </details>
@@ -46,41 +48,54 @@
       <div class="page-hero-content">
         <p class="eyebrow">Groups</p>
         <h1>Three research homes, one shared agenda.</h1>
-        <p class="hero-copy">PIRLab connects research activity across Cambridge, Ireland, and Shanghai Jiao Tong University, with each group emphasizing a different slice of physical intelligence and robotics.</p>
+        <p class="hero-copy">Research across Cambridge, Galway, and Shanghai.</p>
       </div>
     </section>
 
-    <section class="section">
-      <div class="page-summary">
-        <div class="section-header">
-          <p class="eyebrow">Network</p>
-          <h2>Distributed, but conceptually tight.</h2>
-        </div>
-        <div>
-          <p>The three groups are linked by shared methods, mentoring, and publication themes. Together they cover robot perception, predictive modeling, manipulation, robust estimation, and deployment-oriented systems research.</p>
-          <p>This structure keeps the website simple: the lab homepage speaks as one lab, while each group page can speak in its own research voice.</p>
-        </div>
+    <section class="section group-overview">
+      <div class="section-header wide"><p class="eyebrow">Our groups</p><h2>One lab, three research groups.</h2></div>
+      <div class="group-overview-grid">
+        <a class="group-overview-card" href="../cambridge/index.html">
+          <div class="group-logo"><img src="../imgs/partners/ppt/cambridge.png" alt="University of Cambridge"></div>
+          <div><span class="group-location">United Kingdom</span><h3>Cambridge Robotics Group</h3><p>3D vision · Mapping · Construction robotics</p></div>
+          <span class="group-explore">Explore group <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="group-overview-card" href="../ireland/index.html">
+          <div class="group-logo"><img src="../imgs/partners/ppt/galway.png" alt="University of Galway"></div>
+          <div><span class="group-location">Ireland</span><h3>Cambridge-Ireland Research Group</h3><p>World models · 4D vision · Robot learning</p></div>
+          <span class="group-explore">Explore group <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="group-overview-card" href="../sjtu/index.html">
+          <div class="group-logo"><img src="../imgs/partners/ppt/sjtu.png" alt="Shanghai Jiao Tong University"></div>
+          <div><span class="group-location">Shanghai</span><h3>SJTU Research Group</h3><p>Robot vision · Scene flow · Manipulation</p></div>
+          <span class="group-explore">Explore group <span aria-hidden="true">↗</span></span>
+        </a>
       </div>
     </section>
 
-    <section class="section">
-      <div class="group-grid">
-        <a class="group-card" href="../cambridge/index.html">
-          <span>Cambridge</span>
-          <h3>Cambridge Robotics Group</h3>
-          <p>3D robot perception, semantic mapping, localization, construction automation, and embodied physical intelligence.</p>
-        </a>
-        <a class="group-card" href="../ireland/index.html">
-          <span>Ireland</span>
-          <h3>Cambridge-Ireland International Centre Research Group</h3>
-          <p>Predictive world models, 4D robot vision, real-to-sim transfer, and international collaboration around physical AI.</p>
-        </a>
-        <a class="group-card" href="../sjtu/index.html">
-          <span>SJTU</span>
-          <h3>Shanghai Jiao Tong University Research Group</h3>
-          <p>Robot vision foundations in LiDAR odometry, 3D scene flow, robust estimation, and manipulation learning.</p>
-        </a>
+    <section class="section team-section" id="people" aria-labelledby="people-title">
+      <div class="team-section-heading"><div><p class="eyebrow">Our people</p><h2 id="people-title">One team, across three groups.</h2></div><p>Researchers and students working together across Cambridge, Cambridge–Ireland and SJTU.</p></div>
+      <div class="team-legend" aria-label="Group badge key"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span><span class="team-badge team-badge-sjtu">SJTU</span><span>Badges show the group pages where each member is listed.</span></div>
+      <div class="team-subheading"><h3>Group lead</h3></div><div class="team-grid team-lead-grid"><article class="team-person"><div class="team-portrait"><img src="../imgs/Guangming2.jpg" alt="Dr Guangming Wang" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span><span class="team-badge team-badge-sjtu">SJTU</span></div></div><div class="team-person-copy"><p class="team-role">Group Lead</p><h3><a href="https://cv4dt.github.io/author/dr-guangming-wang/">Dr Guangming Wang</a></h3><p>Ward &amp; Burke Assistant Professor at the School of Engineering, University of Galway, and Visiting Assistant Professor at the Department of Engineering, University of Cambridge.</p></div></article></div>
+      <div class="team-subheading"><h3>Researchers &amp; students</h3><span>15 members</span></div><div class="team-grid"><article class="team-person"><div class="team-portrait"><img src="../members/cambridge-zhishuo.png" alt="Zhishuo Liu" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Cambridge Student</p><h3>Zhishuo Liu</h3><p>PhD student at Cambridge.</p></div></article><article class="team-person"><div class="team-portrait"><img src="../members/xingyuan-chen.png" alt="Xingyuan Chen" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">PhD Student</p><h3>Xingyuan Chen</h3><p>PhD student at the University of Cambridge.</p></div></article><article class="team-person"><div class="team-portrait"><img src="../members/shuoyu-yue.jpeg" alt="Shuoyu Yue" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">MPhil Student</p><h3>Shuoyu Yue</h3><p>MPhil student at the University of Cambridge.</p></div></article><article class="team-person"><div class="team-portrait"><img src="../members/cambridge-nandeesh.jpeg" alt="Nandeesh" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Cambridge Student</p><h3>Nandeesh</h3><p>PhD student at Cambridge.</p></div></article><article class="team-person"><div class="team-portrait"><img src="../members/cambridge-xinghui.png" alt="Xinghui Tao" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Cambridge Student</p><h3>Xinghui Tao</h3><p>PhD student at Cambridge.</p></div></article><article class="team-person"><div class="team-portrait"><img src="../members/cambridge-sean.png" alt="Sean Deng" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Cambridge Student</p><h3>Sean Deng</h3><p>Undergraduate student at Cambridge.</p></div></article><article class="team-person"><div class="team-portrait"><img src="../members/cambridge-xiaoyu.jpeg" alt="Xiaoyu Zhang" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Cambridge Student</p><h3>Xiaoyu Zhang</h3><p>Undergraduate student at Cambridge.</p></div></article><article class="team-person"><div class="team-portrait"><img src="https://cv4dt.github.io/author/dr-yixiong-jing/avatar_hu_12033c3a55943e00.jpg" alt="Dr Yixiong Jing" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Group Co-Lead</p><h3><a href="https://cv4dt.github.io/author/dr-yixiong-jing/">Dr Yixiong Jing</a></h3><p>Postdoctoral Research Associate at the University of Cambridge; 3D reconstruction, generative models, physical reasoning with 3DGS, and robotics.</p></div></article><article class="team-person"><div class="team-portrait"><img src="https://cv4dt.github.io/author/haibing-wu/avatar_hu_262a100f9432b867.jpg" alt="Haibing Wu" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Group Co-Lead</p><h3><a href="https://cv4dt.github.io/author/haibing-wu/">Haibing Wu</a></h3><p>PhD Candidate in the CV4DT Research Group.</p></div></article><article class="team-person"><div class="team-portrait"><img src="../members/cambridge-wanru.jpeg" alt="Wanru Yang" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Cambridge Student</p><h3><a href="https://cv4dt.github.io/author/wanru-yang/">Wanru Yang</a></h3><p>PhD student at Cambridge.</p></div></article><article class="team-person"><div class="team-portrait"><img src="https://cv4dt.github.io/author/chenhong-zhang/avatar_hu_38dfe75a04b08e99.jpg" alt="Chenhong Zhang" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><div class="team-person-copy"><p class="team-role">Researcher</p><h3><a href="https://cv4dt.github.io/author/chenhong-zhang/">Chenhong Zhang</a></h3><p>PhD Candidate in the CV4DT Research Group.</p></div></article><article class="team-person"><div class="team-portrait"><img src="https://irmv.sjtu.edu.cn/images/teampic/SitingZhu.png" alt="Siting Zhu" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-sjtu">SJTU</span></div></div><div class="team-person-copy"><p class="team-role">PhD Student</p><h3><a href="https://irmv.sjtu.edu.cn/team">Siting Zhu</a></h3><p>PhD student at SJTU with a full scholarship; visiting NTU. Research interest: semantic SLAM. Co-supervised with Prof. Hesheng Wang.</p></div></article><article class="team-person"><div class="team-portrait"><img src="../members/sjtu-wenhua-wu.png" alt="Wenhua Wu" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-sjtu">SJTU</span></div></div><div class="team-person-copy"><p class="team-role">PhD Student</p><h3><a href="https://irmv.sjtu.edu.cn/team">Wenhua Wu</a></h3><p>PhD student at SJTU with a full scholarship; visiting UCL. Research interest: 3D reconstruction. Co-supervised with Prof. Zhe Liu.</p></div></article><article class="team-person"><div class="team-portrait"><img src="https://irmv.sjtu.edu.cn/images/teampic/YuZheng.jpg" alt="Yu Zheng" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-sjtu">SJTU</span></div></div><div class="team-person-copy"><p class="team-role">PhD Student</p><h3><a href="https://irmv.sjtu.edu.cn/team">Yu Zheng</a></h3><p>PhD student at SJTU with a full scholarship; visiting ETH Zürich. Research interest: mobile manipulation. Co-supervised with Prof. Hesheng Wang.</p></div></article><article class="team-person"><div class="team-portrait"><img src="https://irmv.sjtu.edu.cn/images/teampic/Yuxuan%20Wu.jpg" alt="Yuxuan Wu" loading="lazy"><div class="team-badges"><span class="team-badge team-badge-sjtu">SJTU</span></div></div><div class="team-person-copy"><p class="team-role">PhD Student</p><h3><a href="https://irmv.sjtu.edu.cn/team">Yuxuan Wu</a></h3><p>PhD student at SJTU with a full scholarship. Research interest: computer vision and deep learning for robot manipulation. Co-supervised with Prof. Hesheng Wang.</p></div></article></div>
+      <div class="team-subheading"><h3>Visiting members</h3><span>9 members</span></div>
+      <div class="visitors-grid"><article class="visitor-card"><div class="visitor-card-header"><h4>Pengfei Ye</h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>MPhil student at HKUST; visiting MIT.</p></article><article class="visitor-card"><div class="visitor-card-header"><h4>Ting Li</h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>MPhil student at TUM.</p></article><article class="visitor-card"><div class="visitor-card-header"><h4>Caroline Wendlandt</h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>MPhil student at TUM.</p></article><article class="visitor-card"><div class="visitor-card-header"><h4>Jiucai</h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>PhD student at Cardiff.</p></article><article class="visitor-card"><div class="visitor-card-header"><h4>Yucheng</h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>PhD student at Tsinghua University.</p></article><article class="visitor-card"><div class="visitor-card-header"><h4>Yunxiang</h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>PhD student at Tsinghua University.</p></article><article class="visitor-card"><div class="visitor-card-header"><h4><a href="https://cv4dt.github.io/author/claudio-camolese/">Claudio Camolese</a></h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>Visiting student at Cambridge.</p></article><article class="visitor-card"><div class="visitor-card-header"><h4><a href="https://cv4dt.github.io/author/oussema-dhaouadi/">Oussema Dhaouadi</a></h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>PhD student at TUM; visiting PhD student at Cambridge.</p></article><article class="visitor-card"><div class="visitor-card-header"><h4><a href="https://cv4dt.github.io/author/qizhen-ying/">Qizhen Ying</a></h4><div class="visitor-badges"><span class="team-badge team-badge-cambridge">Cambridge</span><span class="team-badge team-badge-ireland">Cambridge–Ireland</span></div></div><p>PhD student at Oxford.</p></article></div>
+    </section>
+
+    <section class="section facilities" id="facilities" aria-labelledby="facilities-title">
+      <div class="facilities-heading">
+        <div><p class="eyebrow">Research facilities</p><h2 id="facilities-title">Experimenting across our groups.</h2></div>
+        <p>A selection of robotics equipment and experimental platforms from our research and supplied laboratory materials.</p>
       </div>
+      <div class="facilities-grid">
+        <figure><img src="../imgs/facilities/robotics-workbench.jpg" alt="Robotics workbench with a small robotic arm, mobile platform and 3D printer" loading="lazy"><figcaption>Robotics prototyping and experimental platforms</figcaption></figure>
+        <figure><img src="../imgs/facilities/robotics-prototype.jpg" alt="A small 3D-printed robotic prototype" loading="lazy"><figcaption>3D-printed prototype</figcaption></figure>
+        <figure><img src="../imgs/facilities/robot-arm-video.jpg" alt="Robotic arm on a workbench" loading="lazy"><figcaption>Robotic arm experiment · video still</figcaption></figure>
+        <figure><img src="../imgs/facilities/industrial-arm-video.jpg" alt="Industrial robotic arm above an experimental setup" loading="lazy"><figcaption>Industrial robotic arm experiment · video still</figcaption></figure>
+        <figure><img src="../imgs/facilities/husky-hainan-2023.jpg" alt="Clearpath Husky mobile robot" loading="lazy"><figcaption>Clearpath Husky · Hainan laboratory, 2023</figcaption></figure>
+        <figure><img src="../imgs/facilities/scout-hainan-2023.jpg" alt="AgileX SCOUT 2.0 mobile robot" loading="lazy"><figcaption>AgileX SCOUT 2.0 · Hainan laboratory, 2023</figcaption></figure>
+      </div>
+      <p class="facilities-note">The Hainan laboratory images are from a 2023 equipment presentation. Current availability may have changed.</p>
     </section>
   </main>
 
